@@ -4252,6 +4252,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@phala/secretnote-app@workspace:packages/secretb64code-app":
+  version: 0.0.0-use.local
+  resolution: "@phala/secretnote-app@workspace:packages/secretb64code-app"
+  languageName: unknown
+  linkType: soft
+
 "@phala/wallet@workspace:packages/wallet":
   version: 0.0.0-use.local
   resolution: "@phala/wallet@workspace:packages/wallet"
