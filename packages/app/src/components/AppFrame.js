@@ -55,7 +55,7 @@ export const NavBarButtonWrapper = styled.div`
   transition: box-shadow .2s;
   cursor: default;
   z-index: 100;
-  
+
   &:hover, &:active {
     box-shadow: 0 0 0 1.5px #FFFFFF inset;
   }
@@ -87,7 +87,9 @@ const NavBar = () => {
       <NavLogoSpacer />
       <NavBarButton href="WALLET" name={t('Wallet')} icon={StopCircleIcon} />
       <NavItemSpacer />
-      <NavBarButton href="HELLOWORLDAPP" name={t('App')} icon={BoxIcon} />
+      <NavBarButton href="HELLOWORLDAPP" name={t('App/HelloWorld')} icon={BoxIcon} />
+      <NavItemSpacer />
+      <NavBarButton href="SECRETB64CODEAPP" name={t('App/SecretB64Code')} icon={BoxIcon} />
       <NavItemSpacer />
       <NavBarButtonWrapper onClick={() => window.open('/legacy.html', '_blank')}>
         <SidebarIcon size={21} />
